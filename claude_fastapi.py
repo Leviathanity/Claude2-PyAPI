@@ -5,7 +5,7 @@ import os
 app = FastAPI()
 
 def get_cookie():
-    #cookie = os.environ.get('cookie')
+    cookie = os.environ.get('cookie')
     cookie = os.getenv('cookie')
     if not cookie:
         raise ValueError("Please set the 'cookie' environment variable.")

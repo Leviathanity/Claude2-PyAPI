@@ -8,7 +8,7 @@ from common.log import logger
 import PyPDF2
 import docx
 
-load_dotenv()  # Load environment variables from .env file
+load_dotenv()  # Load environment variables from .env filed:\ML\Feature\Zhi\test.py
 class Client:
 
     def __init__(self, cookie,use_proxy=False):
